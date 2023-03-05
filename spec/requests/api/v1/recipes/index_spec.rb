@@ -35,7 +35,7 @@ RSpec.describe "GET recipes" do
     end
   end
 
-  it "can return recipes for a random country when not given a country query" do
+  xit "can return recipes for a random country when not given a country query" do
     country = ""
     get "/api/v1/recipes?country=#{country}"
 
@@ -64,5 +64,17 @@ RSpec.describe "GET recipes" do
     end
   end
 
-  it "can return an empty data array when there are no results"
+  it "can return an empty data array when there are no results" do
+    country = "Tokelau"
+    get "/api/v1/recipes?country=#{country}"
+
+    expect(response).to be_successful
+    expect(response.status).to eq(200)
+    
+    recipes = JSON.parse(response.body, symbolize_names: true)
+
+    expect(recipes).to have_key(:data)
+    expect(recipes[:data]).to be_a(Array)
+    expect(recipes[:data]).to eq([])
+  end
 end

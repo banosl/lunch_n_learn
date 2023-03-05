@@ -17,4 +17,10 @@ class RecipeSerializer
           end
       }
   end
+
+  def self.empty
+    {
+      "data": []
+    }
+  end
 end

@@ -1,5 +1,6 @@
 def load_stubs
   recipes_mexico
+  all_countries
 end
 
 def recipes_mexico
@@ -12,4 +13,16 @@ def recipes_mexico
         'User-Agent'=>'Faraday v2.7.4'
         }).
       to_return(status: 200, body: File.read("spec/fixtures/recipes_mexico.json"))
+end
+
+def all_countries
+  stub_request(:get, "https://restcountries.com/v3.1/all").
+         with(
+           headers: {
+       	  'Accept'=>'*/*',
+       	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       	  'Content-Type'=>'application/json',
+       	  'User-Agent'=>'Faraday v2.7.4'
+           }).
+         to_return(status: 200, body: File.read("spec/fixtures/all_countries.json"))
 end

@@ -1,10 +1,15 @@
 require 'rails_helper'
 
 RSpec.describe "GET recipes" do
-  it "can return recipes when given a country" do
-    country = "Thailand"
-    get "/api/v1/recipes?#{country}"
+  before :each do
+    load_stubs
+  end
 
+  it "can return recipes when given a country" do
+    country = "Mexico"
+    get "/api/v1/recipes?country=#{country}"
+    
+    binding.pry
     expect(response).to be_successful
     expect(response.status).to eq(200)
   end

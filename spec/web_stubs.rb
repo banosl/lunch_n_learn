@@ -3,6 +3,7 @@ def load_stubs
   recipes_empty
   all_countries
   youtube_mexico
+  pictures_mexico
 end
 
 def recipes_mexico
@@ -51,4 +52,16 @@ def youtube_mexico
        	  'User-Agent'=>'Faraday v2.7.4'
            }).
          to_return(status: 200, body: File.read("spec/fixtures/youtube_mexico.json"))
+end
+
+def pictures_mexico
+  stub_request(:get, "https://api.unsplash.com/search/photos?client_id=ztSv_twXGYppEvqeCxzhtElEk8wHBvngWuAbPTopt1c&query=Mexico").
+         with(
+           headers: {
+       	  'Accept'=>'*/*',
+       	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       	  'Accept-Version'=>'v1',
+       	  'User-Agent'=>'Faraday v2.7.4'
+           }).
+         to_return(status: 200, body: File.read("spec/fixtures/pictures_mexico.json"))
 end

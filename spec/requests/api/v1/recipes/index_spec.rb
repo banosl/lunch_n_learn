@@ -9,7 +9,7 @@ RSpec.describe "GET recipes" do
     country = "Mexico"
     get "/api/v1/recipes?country=#{country}"
     
-    binding.pry
+    # binding.pry
     expect(response).to be_successful
     expect(response.status).to eq(200)
   end

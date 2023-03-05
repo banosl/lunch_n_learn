@@ -7,7 +7,7 @@ RSpec.describe YouTubeService do
   describe "get_video_on_country" do
     it ' returns one vide for the query' do
       country = "Mexico"
-      videos = YouTubeService.get_video_on_country(country)
+      videos = YouTubeService.get_videos_on_country(country)
      
       expect(videos).to be_a(Hash)
       expect(videos[:items]).to be_a(Array)

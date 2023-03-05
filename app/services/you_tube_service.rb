@@ -9,7 +9,7 @@ class YouTubeService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  def self.get_video_on_country(country)
+  def self.get_videos_on_country(country)
     response = conn.get("search", {q: country})
     json_parse(response)
   end

@@ -2,6 +2,7 @@ def load_stubs
   recipes_mexico
   recipes_empty
   all_countries
+  youtube_mexico
 end
 
 def recipes_mexico
@@ -38,4 +39,16 @@ def all_countries
        	  'User-Agent'=>'Faraday v2.7.4'
            }).
          to_return(status: 200, body: File.read("spec/fixtures/all_countries.json"))
+end
+
+def youtube_mexico
+  stub_request(:get, "https://youtube.googleapis.com/youtube/v3/search?channelId=UCluQ5yInbeAkkeCndNnUhpw&key=AIzaSyA1cabsfcfS4Bo_39XsvGwDClx3JRrvIPM&part=snippet&q=Mexico&type=video").
+         with(
+           headers: {
+       	  'Accept'=>'*/*',
+       	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       	  'Content-Type'=>'application/json',
+       	  'User-Agent'=>'Faraday v2.7.4'
+           }).
+         to_return(status: 200, body: File.read("spec/fixtures/youtube_mexico.json"))
 end

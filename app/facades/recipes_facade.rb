@@ -1,6 +1,15 @@
 class RecipesFacade
   def self.recipes_by_country(country)
-    recipes = RecipesService.get_recipes_by_country(country)
-    binding.pry
+    response = RecipesService.get_recipes_by_country(country)
+
+    recipes = response[:hits].map do |hit|
+      recipe = hit[:recipe]
+      {recipe: 
+        {url: recipe[:url],
+         name: recipe[:label], 
+         image: recipe[:image], 
+         country: country}
+      }
+    end
   end
 end

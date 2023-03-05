@@ -5,12 +5,12 @@ class RecipesService
                 headers: {'Content-Type' => 'application/json'})
   end
 
-  def json_parse(response)
+  def self.json_parse(response)
     JSON.parse(response.body, symbolize_names: true)
   end
 
   def self.get_recipes_by_country(country)
     response = conn.get('recipes/v2', {type: "public", q: country})
-    binding.pry
+    json_parse(response)
   end
 end

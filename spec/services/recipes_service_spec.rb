@@ -17,7 +17,16 @@ RSpec.describe RecipesService do
 
       response = RecipesService.get_recipes_by_country(country)
 
-      expect(response).to be(Hash)
+      expect(response).to be_a(Hash)
+      expect(response[:hits]).to be_a(Array)
+
+      response[:hits].each do |hit|
+        expect(hit).to be_a(Hash)
+        expect(hit).to have_key(:recipe)
+        expect(hit[:recipe]).to have_key(:url)
+        expect(hit[:recipe]).to have_key(:images)
+        expect(hit[:recipe]).to have_key(:label)
+      end
     end
   end
 end

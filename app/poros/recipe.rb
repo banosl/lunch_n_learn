@@ -1,4 +1,4 @@
-class Picture
+class Recipe
   attr_reader :name, :url, :image, :country
   def initialize(data, country)
     @name = data[:recipe][:label]

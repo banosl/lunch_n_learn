@@ -1,0 +1,30 @@
+[
+  {
+      "capitalInfo": {
+          "latlng": [
+              19.43,
+              -99.13
+          ]
+      },
+      "name": {
+          "common": "Mexico",
+          "official": "United Mexican States",
+          "nativeName": {
+              "spa": {
+                  "official": "Estados Unidos Mexicanos",
+                  "common": "México"
+              }
+          }
+      },
+      "capital": [
+          "Mexico City"
+      ],
+      "altSpellings": [
+          "MX",
+          "Mexicanos",
+          "United Mexican States",
+          "Estados Unidos Mexicanos"
+      ],
+      "flag": "🇲🇽"
+  }
+]

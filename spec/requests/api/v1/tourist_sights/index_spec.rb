@@ -13,7 +13,7 @@ RSpec.describe "Tourist Sights Index" do
       expect(response.status).to eq(200)
       
       sights = JSON.parse(response.body, symbolize_names: true)
-      # binding.pry
+      binding.pry
       expect(sights).to have_key(:data)
 
       sights[:data].each do |sight|

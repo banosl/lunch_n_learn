@@ -22,5 +22,9 @@ RSpec.describe "POST user" do
       expect(user[:data][:attributes]).to have_key(:api_key)
       expect(user[:data][:attributes][:api_key]).to be_a(String)
     end
+
+    it 'returns with a message if the user already exists'
+
+    it 'returns with a message if either email or name are missing'
   end
 end

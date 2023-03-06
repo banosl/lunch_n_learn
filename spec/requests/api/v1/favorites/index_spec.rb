@@ -33,5 +33,16 @@ RSpec.describe "get favorites from api key" do
     result = JSON.parse(response.body, symbolize_names: true)
     expect(result).to eq({errors: "User not found"})
   end
-  it "returns an empty hash if the user has no favorites"
+
+  it "returns an empty hash if the user has no favorites" do
+    user = User.create({name: "jaime", email: "jaime@jaime.com", api_key: "48d882ca943bcd5fd351"})
+
+    get "/api/v1/favorites?api_key=#{user.api_key}"
+
+    expect(response).to be_successful
+    expect(response.status).to eq(200)
+    no_results = JSON.parse(response.body, symbolize_names: true)
+
+    expect(no_results).to eq({data: []})
+  end
 end

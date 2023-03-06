@@ -7,7 +7,7 @@ class Api::V1::RecipesController < ApplicationController
     end
     recipes = RecipesFacade.recipes_by_country(country)
         
-    unless recipes == {:data => []}
+    unless recipes == nil
       render json: RecipeSerializer.format_country_recipes(recipes), status: 200
     else
       render json: RecipeSerializer.empty, status: 200

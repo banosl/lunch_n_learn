@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Picture do
   it "picture exists and has attributes" do
-    data = {picture: {alt_description: "picture of a cow", url: "www.picture.com"}}
+    data = {alt_description: "picture of a cow", urls: {full: "www.picture.com"}}
     picture = Picture.new(data)
 
     expect(picture).to be_instance_of(Picture)

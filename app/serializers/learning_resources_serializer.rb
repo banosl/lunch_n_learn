@@ -12,8 +12,8 @@ class LearningResourcesSerializer
             },
           "images": pictures.each do |picture| 
             {
-              "alt_tag": picture[:alt_tag],
-              "url": picture[:url]
+              "alt_tag": picture.alt_tag,
+              "url": picture.url
             }
           end
         }

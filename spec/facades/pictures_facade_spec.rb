@@ -10,16 +10,14 @@ RSpec.describe PicturesFacade do
       pictures = PicturesFacade.pictures_for_country(country)
 
       expect(pictures).to be_a(Array)
-      
+
       pictures.each do |picture|
-        expect(picture).to have_key(:alt_tag)
-        expect(picture).to have_key(:url)
-        expect(picture).to_not have_key(:description)
-        expect(picture).to_not have_key(:width)
-        expect(picture).to_not have_key(:height)
-        expect(picture).to_not have_key(:color)
-        expect(picture).to_not have_key(:links)
+        expect(picture.alt_tag).to be_a(String)
+        expect(picture.url).to be_a(String)
       end
+
+      expect(pictures[0].alt_tag).to eq("people standing on corner road near concrete buildings during daytime")
+      expect(pictures[0].url).to eq("https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?crop=entropy&cs=tinysrgb&fm=jpg&ixid=Mnw0MTg4NjN8MHwxfHNlYXJjaHwxfHxNZXhpY298ZW58MHx8fHwxNjc4MDU3MzM2&ixlib=rb-4.0.3&q=80")
     end
   end
 end

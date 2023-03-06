@@ -31,7 +31,7 @@ def recipes_empty
 end
 
 def all_countries
-  stub_request(:get, "https://restcountries.com/v3.1/all").
+  stub_request(:get, "https://restcountries.com/v3.1/all?fields=name,capital,capitalInfo,flag").
          with(
            headers: {
        	  'Accept'=>'*/*',

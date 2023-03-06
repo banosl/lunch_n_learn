@@ -8,10 +8,10 @@ class RecipeSerializer
               "type": "recipe",
               "attributes":
               { 
-                "title": recipe[:recipe][:name],
-                "url": recipe[:recipe][:url],
-                "country": recipe[:recipe][:country],
-                "image": recipe[:recipe][:image]
+                "title": recipe.name,
+                "url": recipe.url,
+                "country": recipe.country,
+                "image": recipe.image
               }
             }
           end

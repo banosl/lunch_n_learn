@@ -13,13 +13,13 @@ RSpec.describe "GET recipes" do
     expect(response.status).to eq(200)
     
     recipes = JSON.parse(response.body, symbolize_names: true)
-
+    expect(recipes).to be_a(Hash)
     expect(recipes).to have_key(:data)
     expect(recipes[:data]).to be_a(Array)
     
     recipes[:data].each do |recipe|
       expect(recipe).to have_key(:id)
-      expect(recipe[:id]).to eq({})
+      expect(recipe[:id]).to eq(nil)
       expect(recipe).to have_key(:type)
       expect(recipe[:type]).to eq("recipe")
       expect(recipe).to have_key(:attributes)

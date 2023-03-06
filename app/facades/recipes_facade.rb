@@ -3,13 +3,7 @@ class RecipesFacade
     response = RecipesService.get_recipes_by_country(country)
     unless response == {:data => []}
       recipes = response[:hits].map do |recipe|
-        a = hit[:recipe]
-        {recipe: 
-          {url: recipe[:url],
-          name: recipe[:label], 
-          image: recipe[:image], 
-          country: country}
-        }
+        Recipe.new(recipe, country)
       end
     end
   end

@@ -5,7 +5,7 @@ RSpec.describe CountriesFacade do
     load_stubs
   end
   describe "#self.random_country_name" do
-    it "returns a random country from the resposes" do
+    it "returns a random country from the responses" do
       country_name = CountriesFacade.random_country_name
 
       expect(country_name).to be_a(String)

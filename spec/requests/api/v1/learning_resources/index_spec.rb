@@ -24,4 +24,14 @@ RSpec.describe 'GET learning resources' do
     expect(result[:data][:attributes]).to have_key(:images)
     expect(result[:data][:attributes][:images]).to be_a(Array)
   end
+
+  it 'returns an empty response for when there are no image results' do
+    country = "Narnia"
+    get "/api/v1/learning_resources?country=#{country}"
+
+    expect(response).to be_successful
+    expect(response.status).to eq(200)
+
+    binding.pry
+  end
 end

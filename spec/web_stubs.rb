@@ -6,6 +6,8 @@ def load_stubs
   pictures_mexico
   places_mexico_city
   mexico_capital
+  narnia_youtube
+  narnia_unsplash
 end
 
 def recipes_mexico
@@ -91,4 +93,29 @@ def mexico_capital
        	  'User-Agent'=>'Faraday v2.7.4'
            }).
          to_return(status: 200, body: File.read("spec/fixtures/mexico_capital.json"))
+end
+
+def narnia_youtube
+  stub_request(:get, "https://youtube.googleapis.com/youtube/v3/search").
+         with(
+           headers: {
+       	  'Accept'=>'*/*',
+       	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       	  'Content-Type'=>'application/json',
+       	  'User-Agent'=>'Faraday v2.7.4'
+           }, query: {"channelId": "UCluQ5yInbeAkkeCndNnUhpw", "key": ENV['GOOGLE_API'], "part": "snippet", "q": "Narnia", "type": "video" }).
+         to_return(status: 200, body: File.read("spec/fixtures/youtube_narnia_no_results.json"), headers: {})
+end
+
+def narnia_unsplash
+  stub_request(:get, "https://api.unsplash.com/search/photos?client_id=u1NprDEC2ByWMbXjiLaxq1oIrm0DVj14xpx1TTL1JL4&query=Narnia").
+  with(
+    headers: {
+    'Accept'=>'*/*',
+    'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+    'Accept-Version'=>'v1',
+    'User-Agent'=>'Faraday v2.7.4'
+    }, query: {"client_id": ENV['unsplash_api'], "query": "Narnia"}).
+  to_return(status: 200, body: File.read("spec/fixtures/narnia_unsplash"), headers: {})
+
 end

@@ -1,7 +1,6 @@
 class Api::V1::RecipesController < ApplicationController
   def index
     country = params[:country]
-
     if params[:country] == ""
       country = CountriesFacade.random_country_name
     end

@@ -9,7 +9,7 @@ class PlacesService
   end
 
   def self.get_tourist_sights_of_capital(coordinates)
-    response = conn.get("places", {filter: "circle:#{coordinates},5000", apiKey: ENV['places_key']})
+    response = conn.get("places", {filter: "circle:#{coordinates},20000", apiKey: ENV['places_key']})
     json_parse(response)
   end
 end

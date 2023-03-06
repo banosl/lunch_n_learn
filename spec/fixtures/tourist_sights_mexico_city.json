@@ -1,1118 +1,1133 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Biblioteca de México \"José Vasconcelos\"",
-              "old_name": "Real Fábrica de Tabacos de la Nueva España",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06040",
-              "district": "Centro Urbano",
-              "street": "Calle Enrico Martínez",
-              "housenumber": "4",
-              "lon": -99.14961053600166,
-              "lat": 19.4288169,
-              "formatted": "Biblioteca de México \"José Vasconcelos\", Calle Enrico Martínez 4, Centro Urbano, 06040 Mexico City, Mexico",
-              "address_line1": "Biblioteca de México \"José Vasconcelos\"",
-              "address_line2": "Calle Enrico Martínez 4, Centro Urbano, 06040 Mexico City, Mexico",
-              "categories": [
-                  "building",
-                  "building.historic",
-                  "building.public_and_civil",
-                  "education",
-                  "education.library",
-                  "tourism",
-                  "tourism.sights"
-              ],
-              "details": [
-                  "details",
-                  "details.building",
-                  "details.contact",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Biblioteca de México \"José Vasconcelos\"",
-                      "email": "contactomexico@conaculta.gob.mx",
-                      "phone": "+52 55 41550830",
-                      "osm_id": 520932670,
-                      "amenity": "library",
-                      "website": "https://www.bibliotecademexico.gob.mx/",
-                      "alt_name": "Edificio de La Ciudadela",
-                      "building": "public",
-                      "historic": "building",
-                      "old_name": "Real Fábrica de Tabacos de la Nueva España",
-                      "operator": "CONACULTA",
-                      "osm_type": "w",
-                      "wikidata": "Q47490503",
-                      "addr:city": "Cuauhtémoc",
-                      "wikipedia": "es:La Ciudadela (ciudad de México)",
-                      "addr:street": "Plaza de la Ciudadela",
-                      "addr:postcode": "06040",
-                      "opening_hours": "Mo-Sa 08:30-19:30",
-                      "addr:housenumber": 4,
-                      "addr:neighbourhood": "Centro",
-                      "year_of_construction": 1807
-                  }
-              },
-              "place_id": "516c0c046c93c958c05926310bb2bd6d3340f00102f9013ecd0c1f000000009203294269626c696f74656361206465204dc3a97869636f20224a6f73c3a920566173636f6e63656c6f7322"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.14962292094577,
-                  19.42867577336542
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Museo Indígena",
-              "old_name": "Garita o Aduana de Peralvillo",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06200",
-              "district": "Colonia Maza",
-              "street": "Ciclovía Reforma",
-              "housenumber": "707",
-              "lon": -99.1314726,
-              "lat": 19.4516367,
-              "formatted": "Museo Indígena, Ciclovía Reforma 707, Colonia Maza, 06200 Mexico City, Mexico",
-              "address_line1": "Museo Indígena",
-              "address_line2": "Ciclovía Reforma 707, Colonia Maza, 06200 Mexico City, Mexico",
-              "categories": [
-                  "entertainment",
-                  "entertainment.museum",
-                  "tourism",
-                  "tourism.sights"
-              ],
-              "details": [
-                  "details",
-                  "details.contact"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Museo Indígena",
-                      "osm_id": 3922471245,
-                      "tourism": "museum",
-                      "website": "http://www.cdi.gob.mx/",
-                      "alt_name": "Antigua Aduana de Peralvillo",
-                      "historic": "building",
-                      "loc_name": "Aduana del Pulque",
-                      "old_name": "Garita o Aduana de Peralvillo",
-                      "operator": "Comisión Nacional para el Desarrollo de los Pueblos Indígenas",
-                      "osm_type": "n",
-                      "addr:city": "Cuauhtémoc",
-                      "addr:street": "Paseo de la Reforma Norte",
-                      "addr:postcode": "06200",
-                      "contact:email": "omurillo@cdi.gob.mx",
-                      "contact:phone": "+5215555294699",
-                      "opening_hours": "Mo-Su 08:00-12:00",
-                      "addr:housenumber": 707
-                  }
-              },
-              "place_id": "517c540d0c6ac858c0593ca679769e733340f00103f9014d29cce90000000092030f4d7573656f20496e64c3ad67656e61"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.1314726,
-                  19.451636700343656
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Palacio de la Escuela de Medicina",
-              "old_name": "Palacio de la Inquisición",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06020",
-              "district": "Centro Urbano",
-              "street": "Calle República de Venezuela",
-              "lon": -99.13287785394867,
-              "lat": 19.4379332,
-              "formatted": "Palacio de la Escuela de Medicina, Calle República de Venezuela, Centro Urbano, 06020 Mexico City, Mexico",
-              "address_line1": "Palacio de la Escuela de Medicina",
-              "address_line2": "Calle República de Venezuela, Centro Urbano, 06020 Mexico City, Mexico",
-              "categories": [
-                  "building",
-                  "building.historic",
-                  "building.tourism",
-                  "entertainment",
-                  "entertainment.museum",
-                  "tourism",
-                  "tourism.sights"
-              ],
-              "details": [
-                  "details",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Palacio de la Escuela de Medicina",
-                      "osm_id": -7590464,
-                      "tourism": "museum",
-                      "website": "https://pem.facmed.unam.mx/",
-                      "alt_name": "Antiguo Palacio de la Inquisición",
-                      "building": "yes",
-                      "historic": "building",
-                      "old_name": "Palacio de la Inquisición",
-                      "operator": "Universidad Nacional Autónoma de México",
-                      "osm_type": "r",
-                      "wikidata": "Q7126272",
-                      "wikipedia": "es:Palacio de la Escuela de Medicina",
-                      "wikipedia:en": "Palace of the Inquisition"
-                  }
-              },
-              "place_id": "51821910b383c858c059eaf69ec41d703340f00101f90140d273000000000092032150616c6163696f206465206c612045736375656c61206465204d65646963696e61"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.13303829738837,
-                  19.437954224404997
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Templo Mayor",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06060",
-              "district": "Centro Urbano",
-              "street": "Calle República de Guatemala",
-              "lon": -99.13119719424643,
-              "lat": 19.4350178,
-              "formatted": "Templo Mayor, Calle República de Guatemala, Centro Urbano, 06060 Mexico City, Mexico",
-              "address_line1": "Templo Mayor",
-              "address_line2": "Calle República de Guatemala, Centro Urbano, 06060 Mexico City, Mexico",
-              "categories": [
-                  "entertainment",
-                  "entertainment.museum",
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.archaeological_site",
-                  "wheelchair",
-                  "wheelchair.limited"
-              ],
-              "details": [
-                  "details.facilities",
-                  "details.historic",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Templo Mayor",
-                      "image": "https://photos.app.goo.gl/SzGWdH2zWdsLVhiU6",
-                      "ruins": "yes",
-                      "osm_id": 27916295,
-                      "tourism": "museum",
-                      "historic": "archaeological_site",
-                      "osm_type": "w",
-                      "wikipedia": "en:Templo Mayor",
-                      "wheelchair": "limited"
-                  }
-              },
-              "place_id": "5183ead70e68c858c0597f6c2c285b6f3340f00102f90107f8a9010000000092030c54656d706c6f204d61796f72"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.13135119519761,
-                  19.434984694333703
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Museo de la Revolucion Mexicana",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06030",
-              "district": "Colonia Tabacalera",
-              "street": "Plaza de la República",
-              "lon": -99.15462821875158,
-              "lat": 19.43618,
-              "formatted": "Museo de la Revolucion Mexicana, Plaza de la República, Colonia Tabacalera, 06030 Mexico City, Mexico",
-              "address_line1": "Museo de la Revolucion Mexicana",
-              "address_line2": "Plaza de la República, Colonia Tabacalera, 06030 Mexico City, Mexico",
-              "categories": [
-                  "building",
-                  "building.historic",
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.memorial",
-                  "tourism.sights.memorial.monument"
-              ],
-              "details": [
-                  "details.building",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Museo de la Revolucion Mexicana",
-                      "image": "https://photos.app.goo.gl/9drexQ3nvKBPFvGXA",
-                      "height": 35.5,
-                      "osm_id": 158032450,
-                      "building": "yes",
-                      "historic": "monument",
-                      "osm_type": "w",
-                      "wikidata": "Q1389520"
-                  }
-              },
-              "place_id": "515932a46de5c958c059bcc49b75a96f3340f00102f90142626b090000000092031f4d7573656f206465206c61205265766f6c7563696f6e204d65786963616e61"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.15462819132644,
-                  19.43617949536268
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Parroquia de la Asunción - Sagrario Metropolitano",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06060",
-              "district": "Centro Urbano",
-              "street": "Moneda",
-              "lon": -99.13261219897876,
-              "lat": 19.433928950000002,
-              "formatted": "Metropolitan Tabernacle, Moneda, Centro Urbano, 06060 Mexico City, Mexico",
-              "address_line1": "Metropolitan Tabernacle",
-              "address_line2": "Moneda, Centro Urbano, 06060 Mexico City, Mexico",
-              "categories": [
-                  "building",
-                  "building.historic",
-                  "tourism",
-                  "tourism.sights",
-                  "wheelchair",
-                  "wheelchair.limited"
-              ],
-              "details": [
-                  "details",
-                  "details.building",
-                  "details.facilities",
-                  "details.place_of_worship",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Parroquia de la Asunción - Sagrario Metropolitano",
-                      "wall": "yes",
-                      "image": "https://photos.app.goo.gl/goh6KVuAz5NAkftK8",
-                      "level": 0,
-                      "height": 15,
-                      "indoor": "level",
-                      "osm_id": 862420735,
-                      "name:en": "Metropolitan Tabernacle",
-                      "building": "yes",
-                      "historic": "building",
-                      "osm_type": "w",
-                      "wheelchair": "limited",
-                      "denomination": "catholic",
-                      "description:en": "Built by Lorenzo Rodríguez during the the Baroque period between 1749 and 1760, to house the archives and vestments of the archbishop. It also functioned and continues to function as a place to receive Eucharist and register parishioners.",
-                      "building:levels": 1,
-                      "wikimedia_commons": "File:EntranceSagrariumDF.JPG",
-                      "building:levels:underground": 1
-                  }
-              },
-              "place_id": "51f24b95ae7cc858c0597355c135166f3340f00102f901ff7e673300000000920332506172726f71756961206465206c61204173756e6369c3b36e202d20536167726172696f204d6574726f706f6c6974616e6f"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.13260998325111,
-                  19.433932647419578
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Monumento a Cuauhtémoc",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "district": "Colonia Juárez",
-              "street": "Avenida Paseo de la Reforma",
-              "lon": -99.1590173,
-              "lat": 19.4310843,
-              "formatted": "Monumento a Cuauhtémoc, Avenida Paseo de la Reforma, Colonia Juárez, Mexico City, Mexico",
-              "address_line1": "Monumento a Cuauhtémoc",
-              "address_line2": "Avenida Paseo de la Reforma, Colonia Juárez, Mexico City, Mexico",
-              "categories": [
-                  "tourism",
-                  "tourism.attraction",
-                  "tourism.sights",
-                  "tourism.sights.memorial"
-              ],
-              "details": [
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Monumento a Cuauhtémoc",
-                      "image": "https://photos.app.goo.gl/X5gcreVsgZH997Nd7",
-                      "osm_id": 10125131802,
-                      "tourism": "attraction",
-                      "historic": "memorial",
-                      "osm_type": "n",
-                      "wikidata": "Q6023002"
-                  }
-              },
-              "place_id": "51e3bfe5562dca58c0592dca6b8a5b6e3340f00103f9011a40815b020000009203174d6f6e756d656e746f206120437561756874c3a96d6f63"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.1590173,
-                  19.431084300342423
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Antigua Aduana de la Ciudad de México",
-              "old_name": "Casa de los Marqueses de Villamayor",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "district": "Centro Urbano",
-              "street": "Calle República de Brasil",
-              "housenumber": "31",
-              "lon": -99.13327282840505,
-              "lat": 19.43721915,
-              "formatted": "Antigua Aduana de la Ciudad de México, Calle República de Brasil 31, Centro Urbano, Mexico City, Mexico",
-              "address_line1": "Antigua Aduana de la Ciudad de México",
-              "address_line2": "Calle República de Brasil 31, Centro Urbano, Mexico City, Mexico",
-              "categories": [
-                  "building",
-                  "building.historic",
-                  "tourism",
-                  "tourism.sights"
-              ],
-              "details": [
-                  "details",
-                  "details.building",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Antigua Aduana de la Ciudad de México",
-                      "height": 6,
-                      "osm_id": -7590462,
-                      "building": "historic",
-                      "historic": "building",
-                      "old_name": "Casa de los Marqueses de Villamayor",
-                      "osm_type": "r",
-                      "wikidata": "Q7083811",
-                      "wikipedia": "es:Edificio de la antigua Aduana de la Ciudad de México",
-                      "addr:street": "Calle República de Brasil",
-                      "building:levels": 3,
-                      "addr:housenumber": 31
-                  }
-              },
-              "place_id": "51b7ab98bd87c858c059f1170334ed6f3340f00101f9013ed2730000000000920326416e746967756120416475616e61206465206c6120436975646164206465204dc3a97869636f"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.13328494939093,
-                  19.437213183169607
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Zócalo de la Ciudad de México",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06060",
-              "district": "Centro Urbano",
-              "lon": -99.13317042954125,
-              "lat": 19.432839450000003,
-              "formatted": "Zócalo de la Ciudad de México, Centro Urbano, 06060 Mexico City, Mexico",
-              "address_line1": "Zócalo de la Ciudad de México",
-              "address_line2": "Centro Urbano, 06060 Mexico City, Mexico",
-              "categories": [
-                  "tourism",
-                  "tourism.attraction",
-                  "tourism.sights",
-                  "wheelchair",
-                  "wheelchair.limited"
-              ],
-              "details": [
-                  "details",
-                  "details.facilities",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "lit": "yes",
-                      "name": "Zócalo de la Ciudad de México",
-                      "place": "square",
-                      "osm_id": 221909363,
-                      "bicycle": "permissive",
-                      "name:de": "Sockel",
-                      "name:ko": "쏘깔로 광장",
-                      "surface": "cobblestone",
-                      "tourism": "attraction",
-                      "alt_name": "Plaza de la Constitución",
-                      "historic": "earthworks",
-                      "osm_type": "w",
-                      "wikipedia": "es:Plaza de la Constitución",
-                      "short_name": "Zócalo",
-                      "wheelchair": "limited",
-                      "official_name": "Plaza de la Constitución",
-                      "official_name:de": "Platz der Verfassung",
-                      "official_name:en": "Constitution Square",
-                      "official_name:it": "Piazza della Costituzione",
-                      "official_name:pt": "Praça da Constituição"
-                  }
-              },
-              "place_id": "519842ec4586c858c05924e6bbcac16e3340f00102f90173113a0d0000000092031f5ac3b363616c6f206465206c6120436975646164206465204dc3a97869636f"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.13319538185385,
-                  19.43264453017595
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Estela de Luz",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "11580",
-              "district": "Colonia Nueva Anzures",
-              "street": "Avenida Juventud Heróica",
-              "lon": -99.17582832122653,
-              "lat": 19.4229128,
-              "formatted": "Estela de Luz, Avenida Juventud Heróica, Colonia Nueva Anzures, 11580 Mexico City, Mexico",
-              "address_line1": "Estela de Luz",
-              "address_line2": "Avenida Juventud Heróica, Colonia Nueva Anzures, 11580 Mexico City, Mexico",
-              "categories": [
-                  "building",
-                  "building.historic",
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.memorial",
-                  "tourism.sights.memorial.monument"
-              ],
-              "details": [
-                  "details",
-                  "details.building",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Estela de Luz",
-                      "height": 111,
-                      "osm_id": 311593047,
-                      "building": "yes",
-                      "historic": "monument",
-                      "loc_name": "La Suavicrema",
-                      "osm_type": "w",
-                      "wikidata": "Q8843219",
-                      "wikipedia": "en:Estela de Luz"
-                  }
-              },
-              "place_id": "51b8b6bbc540cb58c059b6bc3b02446c3340f00102f901578892120000000092030d457374656c61206465204c757a"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.17582839328213,
-                  19.42291273077418
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Catedral Metropolitana de la Ciudad de México",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "district": "Centro Urbano",
-              "street": "República de Guatemala",
-              "lon": -99.13306506450397,
-              "lat": 19.434382149999998,
-              "formatted": "Catedral Metropolitana de la Ciudad de México, República de Guatemala, Centro Urbano, Mexico City, Mexico",
-              "address_line1": "Catedral Metropolitana de la Ciudad de México",
-              "address_line2": "República de Guatemala, Centro Urbano, Mexico City, Mexico",
-              "categories": [
-                  "building",
-                  "building.historic",
-                  "building.place_of_worship",
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.place_of_worship",
-                  "tourism.sights.place_of_worship.church",
-                  "wheelchair",
-                  "wheelchair.limited"
-              ],
-              "details": [
-                  "details",
-                  "details.building",
-                  "details.facilities",
-                  "details.place_of_worship",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Catedral Metropolitana de la Ciudad de México",
-                      "wall": "yes",
-                      "level": 0,
-                      "height": 67,
-                      "indoor": "level",
-                      "osm_id": 862852010,
-                      "amenity": "place_of_worship",
-                      "building": "church",
-                      "historic": "building",
-                      "osm_type": "w",
-                      "religion": "christian",
-                      "wikidata": "Q610961",
-                      "wikipedia": "es:Catedral Metropolitana de la Ciudad de México",
-                      "wheelchair": "limited",
-                      "description": "La Catedral Metropolitana de la Asunción de la Santísima Virgen María a los cielos de la Ciudad de México es la sede de la Arquidiócesis Primada de México. Se inicio su construcción en 1570.",
-                      "denomination": "catholic",
-                      "building:levels": 2,
-                      "wikimedia_commons": "File:Zocalo cathedral.jpg",
-                      "building:levels:underground": 1
-                  }
-              },
-              "place_id": "519c51a1cf84c858c059a4e8c4d1346f3340f00102f901aa136e330000000092032e436174656472616c204d6574726f706f6c6974616e61206465206c6120436975646164206465204dc3a97869636f"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.1331061435107,
-                  19.4343997102484
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Panteón de San Fernando",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06300",
-              "district": "Colonia Tabacalera",
-              "street": "Plaza San Fernando",
-              "housenumber": "17",
-              "lon": -99.1479629,
-              "lat": 19.4391495,
-              "formatted": "Panteón de San Fernando, Plaza San Fernando 17, Colonia Tabacalera, 06300 Mexico City, Mexico",
-              "address_line1": "Panteón de San Fernando",
-              "address_line2": "Plaza San Fernando 17, Colonia Tabacalera, 06300 Mexico City, Mexico",
-              "categories": [
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.memorial"
-              ],
-              "details": [
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Panteón de San Fernando",
-                      "osm_id": 983963424,
-                      "historic": "memorial",
-                      "osm_type": "n",
-                      "wikidata": "Q5405275",
-                      "wikipedia": "es:Panteón de San Fernando"
-                  }
-              },
-              "place_id": "515d21623978c958c0590d07061a6c703340f00103f9012017a63a0000000092031850616e7465c3b36e2064652053616e204665726e616e646f"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.1479629,
-                  19.43914950034291
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Centro Cultural Capilla Británica",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06470",
-              "district": "Colonia San Rafael Ticomán",
-              "street": "Avenida Ribera de San Cosme",
-              "lon": -99.1654818,
-              "lat": 19.4431197,
-              "formatted": "Centro Cultural Capilla Británica, Avenida Ribera de San Cosme, Colonia San Rafael Ticomán, 06470 Mexico City, Mexico",
-              "address_line1": "Centro Cultural Capilla Británica",
-              "address_line2": "Avenida Ribera de San Cosme, Colonia San Rafael Ticomán, 06470 Mexico City, Mexico",
-              "categories": [
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.memorial",
-                  "tourism.sights.memorial.monument"
-              ],
-              "details": [
-                  "details.contact"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Centro Cultural Capilla Británica",
-                      "phone": "+52555535 3790",
-                      "osm_id": 3724964398,
-                      "historic": "monument",
-                      "osm_type": "n"
-                  }
-              },
-              "place_id": "5153c5f94097ca58c059eb2fed4a70713340f00103f9012e7206de0000000092032243656e74726f2043756c747572616c20436170696c6c612042726974c3a16e696361"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.1654818,
-                  19.443119700343157
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Ché Guevara y Fidel Castro",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06030",
-              "district": "Colonia Tabacalera",
-              "street": "Calle Ignacio Mariscal",
-              "lon": -99.1522177,
-              "lat": 19.4377852,
-              "formatted": "Ché Guevara y Fidel Castro, Calle Ignacio Mariscal, Colonia Tabacalera, 06030 Mexico City, Mexico",
-              "address_line1": "Ché Guevara y Fidel Castro",
-              "address_line2": "Calle Ignacio Mariscal, Colonia Tabacalera, 06030 Mexico City, Mexico",
-              "categories": [
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.memorial"
-              ],
-              "details": [
-                  "details",
-                  "details.historic",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Ché Guevara y Fidel Castro",
-                      "osm_id": 5052385558,
-                      "historic": "memorial",
-                      "memorial": "statue",
-                      "osm_type": "n",
-                      "wikidata": "Q5809",
-                      "wikipedia": "es:Che Guevara",
-                      "description": "Conjunto escultórico hecho por Oscar Ponzanelli. Peso 250 kg."
-                  }
-              },
-              "place_id": "51d4d74eefbdc958c0592f25deb012703340f00103f9011649252d0100000092031b4368c3a92047756576617261207920466964656c2043617374726f"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.1522177,
-                  19.437785200342827
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Bandera Monumental",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "15700",
-              "district": "Colonia Federal",
-              "street": "Plaza del Ejecutivo",
-              "lon": -99.087528,
-              "lat": 19.4194595,
-              "formatted": "Monumental Flag, Plaza del Ejecutivo, Colonia Federal, 15700 Mexico City, Mexico",
-              "address_line1": "Monumental Flag",
-              "address_line2": "Plaza del Ejecutivo, Colonia Federal, 15700 Mexico City, Mexico",
-              "categories": [
-                  "man_made",
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.memorial"
-              ],
-              "details": [
-                  "details",
-                  "details.historic",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Bandera Monumental",
-                      "osm_id": 5895819097,
-                      "name:en": "Monumental Flag",
-                      "historic": "memorial",
-                      "man_made": "flagpole",
-                      "memorial": "flag",
-                      "osm_type": "n",
-                      "wikidata": "Q4854531",
-                      "addr:city": "Ciudad de México",
-                      "wikipedia": "es:Banderas monumentales de México",
-                      "addr:street": "Plaza del Ejecutivo",
-                      "description": "Bandera en lo alto",
-                      "addr:postcode": 15700
-                  }
-              },
-              "place_id": "51fe5e0a0f9ac558c059d9f6a3b2616b3340f00103f901590f6b5f0100000092031242616e64657261204d6f6e756d656e74616c"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.08752799999999,
-                  19.419459500341734
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Zona Arquelógica Tlatelolco",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "district": "Unidad Habitacional Nonoalco Tlatelolco",
-              "street": "Avenida Lázaro Cárdenas",
-              "lon": -99.13767258441054,
-              "lat": 19.4514174,
-              "formatted": "Zona Arquelógica Tlatelolco, Avenida Lázaro Cárdenas, Unidad Habitacional Nonoalco Tlatelolco, Mexico City, Mexico",
-              "address_line1": "Zona Arquelógica Tlatelolco",
-              "address_line2": "Avenida Lázaro Cárdenas, Unidad Habitacional Nonoalco Tlatelolco, Mexico City, Mexico",
-              "categories": [
-                  "access_limited",
-                  "access_limited.customers",
-                  "entertainment",
-                  "entertainment.museum",
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.archaeological_site"
-              ],
-              "details": [
-                  "details.historic",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Zona Arquelógica Tlatelolco",
-                      "image": "https://photos.app.goo.gl/LgDUSEWXHmou2PaXA",
-                      "access": "customers",
-                      "osm_id": 146024228,
-                      "tourism": "museum",
-                      "historic": "archaeological_site",
-                      "osm_type": "w",
-                      "archaeological_site": "city",
-                      "historic:civilization": "prehispanic"
-                  }
-              },
-              "place_id": "513264217ecdc858c059a069c1c490733340f00102f9012427b4080000000092031c5a6f6e612041727175656cc3b36769636120546c6174656c6f6c636f"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.13754227887037,
-                  19.451427743167756
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Escultura del Caballito",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06030",
-              "district": "Colonia Tabacalera",
-              "street": "Ciclovía Reforma",
-              "lon": -99.1493859961721,
-              "lat": 19.436117799999998,
-              "formatted": "Escultura del Caballito, Ciclovía Reforma, Colonia Tabacalera, 06030 Mexico City, Mexico",
-              "address_line1": "Escultura del Caballito",
-              "address_line2": "Ciclovía Reforma, Colonia Tabacalera, 06030 Mexico City, Mexico",
-              "categories": [
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.memorial",
-                  "tourism.sights.memorial.monument"
-              ],
-              "details": [
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Escultura del Caballito",
-                      "image": "https://photos.app.goo.gl/bVGNVin2WxywYNe98",
-                      "osm_id": 217392300,
-                      "historic": "monument",
-                      "osm_type": "w"
-                  }
-              },
-              "place_id": "51d0ce4d8a8fc958c059f810b969a56f3340f00102f901ac24f50c00000000920317457363756c747572612064656c20436162616c6c69746f"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.14938600157188,
-                  19.436117751772116
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Hemiciclo a Juárez",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06050",
-              "district": "Centro Urbano",
-              "street": "Alameda Central",
-              "lon": -99.14408960368655,
-              "lat": 19.4350175,
-              "formatted": "Hemiciclo a Juárez, Alameda Central, Centro Urbano, 06050 Mexico City, Mexico",
-              "address_line1": "Hemiciclo a Juárez",
-              "address_line2": "Alameda Central, Centro Urbano, 06050 Mexico City, Mexico",
-              "categories": [
-                  "building",
-                  "building.historic",
-                  "building.tourism",
-                  "tourism",
-                  "tourism.attraction",
-                  "tourism.sights",
-                  "tourism.sights.memorial",
-                  "tourism.sights.memorial.monument"
-              ],
-              "details": [
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Hemiciclo a Juárez",
-                      "image": "https://photos.app.goo.gl/jFyq6DkvYwALcoTs8",
-                      "osm_id": 992941278,
-                      "tourism": "attraction",
-                      "building": "yes",
-                      "historic": "monument",
-                      "osm_type": "w"
-                  }
-              },
-              "place_id": "51554c89a238c958c059c45a78225d6f3340f00102f901de142f3b0000000092031348656d696369636c6f2061204a75c3a172657a"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.1440817204287,
-                  19.435014871962963
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Juan Pablo II",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06060",
-              "district": "Centro Urbano",
-              "street": "Monte de Piedad",
-              "lon": -99.1334027,
-              "lat": 19.4343663,
-              "formatted": "Juan Pablo II, Monte de Piedad, Centro Urbano, 06060 Mexico City, Mexico",
-              "address_line1": "Juan Pablo II",
-              "address_line2": "Monte de Piedad, Centro Urbano, 06060 Mexico City, Mexico",
-              "categories": [
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.memorial"
-              ],
-              "details": [
-                  "details.artwork",
-                  "details.historic",
-                  "details.wiki_and_media"
-              ],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "name": "Juan Pablo II",
-                      "image": "https://photos.app.goo.gl/JepnoySzzmEiihA46",
-                      "osm_id": 9049361313,
-                      "historic": "memorial",
-                      "osm_type": "n",
-                      "artwork_type": "statue"
-                  }
-              },
-              "place_id": "51ae6c7aab89c858c059c3743ea1326f3340f00103f901a14b621b0200000092030d4a75616e205061626c6f204949"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.1334027,
-                  19.434366300342628
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Plaza de las Tres Culturas",
-              "country": "Mexico",
-              "country_code": "mx",
-              "city": "Mexico City",
-              "postcode": "06900",
-              "district": "Unidad Habitacional Nonoalco Tlatelolco",
-              "street": "Andador 98",
-              "footway": "yes",
-              "lon": -99.13619581936203,
-              "lat": 19.4516866,
-              "formatted": "Plaza de las Tres Culturas, Andador 98, Unidad Habitacional Nonoalco Tlatelolco, 06900 Mexico City, Mexico",
-              "address_line1": "Plaza de las Tres Culturas",
-              "address_line2": "Andador 98, Unidad Habitacional Nonoalco Tlatelolco, 06900 Mexico City, Mexico",
-              "categories": [
-                  "tourism",
-                  "tourism.sights",
-                  "tourism.sights.memorial"
-              ],
-              "details": [],
-              "datasource": {
-                  "sourcename": "openstreetmap",
-                  "attribution": "© OpenStreetMap contributors",
-                  "license": "Open Database Licence",
-                  "url": "https://www.openstreetmap.org/copyright",
-                  "raw": {
-                      "area": "yes",
-                      "name": "Plaza de las Tres Culturas",
-                      "osm_id": 146024221,
-                      "public": "yes",
-                      "footway": "yes",
-                      "historic": "memorial",
-                      "osm_type": "w"
-                  }
-              },
-              "place_id": "51f9b4705fb7c858c05918fe4388a4733340f00102f9011d27b4080000000092031a506c617a61206465206c617320547265732043756c7475726173"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  -99.13619218832527,
-                  19.45172931346869
-              ]
-          }
-      }
-  ]
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Biblioteca de México \"José Vasconcelos\"",
+                "old_name": "Real Fábrica de Tabacos de la Nueva España",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "06040",
+                "district": "Centro Urbano",
+                "street": "Calle Enrico Martínez",
+                "housenumber": "4",
+                "lon": -99.14961053600166,
+                "lat": 19.4288169,
+                "formatted": "Biblioteca de México \"José Vasconcelos\", Calle Enrico Martínez 4, Centro Urbano, 06040 Mexico City, Mexico",
+                "address_line1": "Biblioteca de México \"José Vasconcelos\"",
+                "address_line2": "Calle Enrico Martínez 4, Centro Urbano, 06040 Mexico City, Mexico",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.public_and_civil",
+                    "education",
+                    "education.library",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.contact",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Biblioteca de México \"José Vasconcelos\"",
+                        "email": "contactomexico@conaculta.gob.mx",
+                        "phone": "+52 55 41550830",
+                        "osm_id": 520932670,
+                        "amenity": "library",
+                        "website": "https://www.bibliotecademexico.gob.mx/",
+                        "alt_name": "Edificio de La Ciudadela",
+                        "building": "public",
+                        "historic": "building",
+                        "old_name": "Real Fábrica de Tabacos de la Nueva España",
+                        "operator": "CONACULTA",
+                        "osm_type": "w",
+                        "wikidata": "Q47490503",
+                        "addr:city": "Cuauhtémoc",
+                        "wikipedia": "es:La Ciudadela (ciudad de México)",
+                        "addr:street": "Plaza de la Ciudadela",
+                        "addr:postcode": "06040",
+                        "opening_hours": "Mo-Sa 08:30-19:30",
+                        "addr:housenumber": 4,
+                        "addr:neighbourhood": "Centro",
+                        "year_of_construction": 1807
+                    }
+                },
+                "place_id": "516c0c046c93c958c05926310bb2bd6d3340f00102f9013ecd0c1f000000009203294269626c696f74656361206465204dc3a97869636f20224a6f73c3a920566173636f6e63656c6f7322"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.14962292094577,
+                    19.42867577336542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Museo Indígena",
+                "old_name": "Garita o Aduana de Peralvillo",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "06200",
+                "district": "Colonia Maza",
+                "street": "Ciclovía Reforma",
+                "housenumber": "707",
+                "lon": -99.1314726,
+                "lat": 19.4516367,
+                "formatted": "Museo Indígena, Ciclovía Reforma 707, Colonia Maza, 06200 Mexico City, Mexico",
+                "address_line1": "Museo Indígena",
+                "address_line2": "Ciclovía Reforma 707, Colonia Maza, 06200 Mexico City, Mexico",
+                "categories": [
+                    "entertainment",
+                    "entertainment.museum",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.contact"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Museo Indígena",
+                        "osm_id": 3922471245,
+                        "tourism": "museum",
+                        "website": "http://www.cdi.gob.mx/",
+                        "alt_name": "Antigua Aduana de Peralvillo",
+                        "historic": "building",
+                        "loc_name": "Aduana del Pulque",
+                        "old_name": "Garita o Aduana de Peralvillo",
+                        "operator": "Comisión Nacional para el Desarrollo de los Pueblos Indígenas",
+                        "osm_type": "n",
+                        "addr:city": "Cuauhtémoc",
+                        "addr:street": "Paseo de la Reforma Norte",
+                        "addr:postcode": "06200",
+                        "contact:email": "omurillo@cdi.gob.mx",
+                        "contact:phone": "+5215555294699",
+                        "opening_hours": "Mo-Su 08:00-12:00",
+                        "addr:housenumber": 707
+                    }
+                },
+                "place_id": "517c540d0c6ac858c0593ca679769e733340f00103f9014d29cce90000000092030f4d7573656f20496e64c3ad67656e61"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.1314726,
+                    19.451636700343656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Palacio de la Escuela de Medicina",
+                "old_name": "Palacio de la Inquisición",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "06020",
+                "district": "Centro Urbano",
+                "street": "Calle República de Venezuela",
+                "lon": -99.13287785394867,
+                "lat": 19.4379332,
+                "formatted": "Palacio de la Escuela de Medicina, Calle República de Venezuela, Centro Urbano, 06020 Mexico City, Mexico",
+                "address_line1": "Palacio de la Escuela de Medicina",
+                "address_line2": "Calle República de Venezuela, Centro Urbano, 06020 Mexico City, Mexico",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.tourism",
+                    "entertainment",
+                    "entertainment.museum",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Palacio de la Escuela de Medicina",
+                        "osm_id": -7590464,
+                        "tourism": "museum",
+                        "website": "https://pem.facmed.unam.mx/",
+                        "alt_name": "Antiguo Palacio de la Inquisición",
+                        "building": "yes",
+                        "historic": "building",
+                        "old_name": "Palacio de la Inquisición",
+                        "operator": "Universidad Nacional Autónoma de México",
+                        "osm_type": "r",
+                        "wikidata": "Q7126272",
+                        "wikipedia": "es:Palacio de la Escuela de Medicina",
+                        "wikipedia:en": "Palace of the Inquisition"
+                    }
+                },
+                "place_id": "51821910b383c858c059eaf69ec41d703340f00101f90140d273000000000092032150616c6163696f206465206c612045736375656c61206465204d65646963696e61"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.13303829738837,
+                    19.437954224404997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Museo Nacional de Historia Castillo de Chapultepec",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "11580",
+                "district": "1a. Sección del Bosque de Chapultepec",
+                "street": "Peatonal del Cerro",
+                "lon": -99.18205820072983,
+                "lat": 19.420466400000002,
+                "formatted": "Museo Nacional de Historia Castillo de Chapultepec, Peatonal del Cerro, 1a. Sección del Bosque de Chapultepec, 11580 Mexico City, Mexico",
+                "address_line1": "Museo Nacional de Historia Castillo de Chapultepec",
+                "address_line2": "Peatonal del Cerro, 1a. Sección del Bosque de Chapultepec, 11580 Mexico City, Mexico",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.tourism",
+                    "entertainment",
+                    "entertainment.museum",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.castle"
+                ],
+                "details": [
+                    "details",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Museo Nacional de Historia Castillo de Chapultepec",
+                        "osm_id": 30373701,
+                        "tourism": "museum",
+                        "website": "https://mnh.inah.gob.mx/",
+                        "alt_name": "Castillo de Chapultepec",
+                        "building": "yes",
+                        "historic": "castle",
+                        "operator": "Secretaría de Cultura;Instituto Nacional de Antropología e Historia",
+                        "osm_type": "w",
+                        "wikidata": "Q1072510"
+                    }
+                },
+                "place_id": "515aa16afea1cb58c059273243efa66b3340f00102f9014577cf01000000009203324d7573656f204e6163696f6e616c20646520486973746f7269612043617374696c6c6f2064652043686170756c7465706563"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.18176231778253,
+                    19.420515970139743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Templo Mayor",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "06060",
+                "district": "Centro Urbano",
+                "street": "Calle República de Guatemala",
+                "lon": -99.13119719424643,
+                "lat": 19.4350178,
+                "formatted": "Templo Mayor, Calle República de Guatemala, Centro Urbano, 06060 Mexico City, Mexico",
+                "address_line1": "Templo Mayor",
+                "address_line2": "Calle República de Guatemala, Centro Urbano, 06060 Mexico City, Mexico",
+                "categories": [
+                    "entertainment",
+                    "entertainment.museum",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.archaeological_site",
+                    "wheelchair",
+                    "wheelchair.limited"
+                ],
+                "details": [
+                    "details.facilities",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Templo Mayor",
+                        "image": "https://photos.app.goo.gl/SzGWdH2zWdsLVhiU6",
+                        "ruins": "yes",
+                        "osm_id": 27916295,
+                        "tourism": "museum",
+                        "historic": "archaeological_site",
+                        "osm_type": "w",
+                        "wikipedia": "en:Templo Mayor",
+                        "wheelchair": "limited"
+                    }
+                },
+                "place_id": "5183ead70e68c858c0597f6c2c285b6f3340f00102f90107f8a9010000000092030c54656d706c6f204d61796f72"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.13135119519761,
+                    19.434984694333703
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Museo de la Revolucion Mexicana",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "06030",
+                "district": "Colonia Tabacalera",
+                "street": "Plaza de la República",
+                "lon": -99.15462821875158,
+                "lat": 19.43618,
+                "formatted": "Museo de la Revolucion Mexicana, Plaza de la República, Colonia Tabacalera, 06030 Mexico City, Mexico",
+                "address_line1": "Museo de la Revolucion Mexicana",
+                "address_line2": "Plaza de la República, Colonia Tabacalera, 06030 Mexico City, Mexico",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.memorial",
+                    "tourism.sights.memorial.monument"
+                ],
+                "details": [
+                    "details.building",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Museo de la Revolucion Mexicana",
+                        "image": "https://photos.app.goo.gl/9drexQ3nvKBPFvGXA",
+                        "height": 35.5,
+                        "osm_id": 158032450,
+                        "building": "yes",
+                        "historic": "monument",
+                        "osm_type": "w",
+                        "wikidata": "Q1389520"
+                    }
+                },
+                "place_id": "515932a46de5c958c059bcc49b75a96f3340f00102f90142626b090000000092031f4d7573656f206465206c61205265766f6c7563696f6e204d65786963616e61"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.15462819132644,
+                    19.43617949536268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Parroquia de la Asunción - Sagrario Metropolitano",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "06060",
+                "district": "Centro Urbano",
+                "street": "Moneda",
+                "lon": -99.13261219897876,
+                "lat": 19.433928950000002,
+                "formatted": "Metropolitan Tabernacle, Moneda, Centro Urbano, 06060 Mexico City, Mexico",
+                "address_line1": "Metropolitan Tabernacle",
+                "address_line2": "Moneda, Centro Urbano, 06060 Mexico City, Mexico",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights",
+                    "wheelchair",
+                    "wheelchair.limited"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.facilities",
+                    "details.place_of_worship",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Parroquia de la Asunción - Sagrario Metropolitano",
+                        "wall": "yes",
+                        "image": "https://photos.app.goo.gl/goh6KVuAz5NAkftK8",
+                        "level": 0,
+                        "height": 15,
+                        "indoor": "level",
+                        "osm_id": 862420735,
+                        "name:en": "Metropolitan Tabernacle",
+                        "building": "yes",
+                        "historic": "building",
+                        "osm_type": "w",
+                        "wheelchair": "limited",
+                        "denomination": "catholic",
+                        "description:en": "Built by Lorenzo Rodríguez during the the Baroque period between 1749 and 1760, to house the archives and vestments of the archbishop. It also functioned and continues to function as a place to receive Eucharist and register parishioners.",
+                        "building:levels": 1,
+                        "wikimedia_commons": "File:EntranceSagrariumDF.JPG",
+                        "building:levels:underground": 1
+                    }
+                },
+                "place_id": "51f24b95ae7cc858c0597355c135166f3340f00102f901ff7e673300000000920332506172726f71756961206465206c61204173756e6369c3b36e202d20536167726172696f204d6574726f706f6c6974616e6f"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.13260998325111,
+                    19.433932647419578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Monumento a Cuauhtémoc",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "district": "Colonia Juárez",
+                "street": "Avenida Paseo de la Reforma",
+                "lon": -99.1590173,
+                "lat": 19.4310843,
+                "formatted": "Monumento a Cuauhtémoc, Avenida Paseo de la Reforma, Colonia Juárez, Mexico City, Mexico",
+                "address_line1": "Monumento a Cuauhtémoc",
+                "address_line2": "Avenida Paseo de la Reforma, Colonia Juárez, Mexico City, Mexico",
+                "categories": [
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights",
+                    "tourism.sights.memorial"
+                ],
+                "details": [
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Monumento a Cuauhtémoc",
+                        "image": "https://photos.app.goo.gl/X5gcreVsgZH997Nd7",
+                        "osm_id": 10125131802,
+                        "tourism": "attraction",
+                        "historic": "memorial",
+                        "osm_type": "n",
+                        "wikidata": "Q6023002"
+                    }
+                },
+                "place_id": "51e3bfe5562dca58c0592dca6b8a5b6e3340f00103f9011a40815b020000009203174d6f6e756d656e746f206120437561756874c3a96d6f63"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.1590173,
+                    19.431084300342423
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antigua Aduana de la Ciudad de México",
+                "old_name": "Casa de los Marqueses de Villamayor",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "district": "Centro Urbano",
+                "street": "Calle República de Brasil",
+                "housenumber": "31",
+                "lon": -99.13327282840505,
+                "lat": 19.43721915,
+                "formatted": "Antigua Aduana de la Ciudad de México, Calle República de Brasil 31, Centro Urbano, Mexico City, Mexico",
+                "address_line1": "Antigua Aduana de la Ciudad de México",
+                "address_line2": "Calle República de Brasil 31, Centro Urbano, Mexico City, Mexico",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Antigua Aduana de la Ciudad de México",
+                        "height": 6,
+                        "osm_id": -7590462,
+                        "building": "historic",
+                        "historic": "building",
+                        "old_name": "Casa de los Marqueses de Villamayor",
+                        "osm_type": "r",
+                        "wikidata": "Q7083811",
+                        "wikipedia": "es:Edificio de la antigua Aduana de la Ciudad de México",
+                        "addr:street": "Calle República de Brasil",
+                        "building:levels": 3,
+                        "addr:housenumber": 31
+                    }
+                },
+                "place_id": "51b7ab98bd87c858c059f1170334ed6f3340f00101f9013ed2730000000000920326416e746967756120416475616e61206465206c6120436975646164206465204dc3a97869636f"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.13328494939093,
+                    19.437213183169607
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Zona Arqueológica de Cuicuilco",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "14030",
+                "district": "Colonia Equipamiento Fábrica FISISA",
+                "street": "Calle Piedra Filosofal",
+                "lon": -99.18269389940605,
+                "lat": 19.30093945,
+                "formatted": "Zona Arqueológica de Cuicuilco, Calle Piedra Filosofal, Colonia Equipamiento Fábrica FISISA, 14030 Mexico City, Mexico",
+                "address_line1": "Zona Arqueológica de Cuicuilco",
+                "address_line2": "Calle Piedra Filosofal, Colonia Equipamiento Fábrica FISISA, 14030 Mexico City, Mexico",
+                "categories": [
+                    "leisure",
+                    "leisure.park",
+                    "leisure.park.nature_reserve",
+                    "natural",
+                    "natural.protected_area",
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights",
+                    "tourism.sights.archaeological_site"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Zona Arqueológica de Cuicuilco",
+                        "osm_id": 54446511,
+                        "leisure": "nature_reserve",
+                        "tourism": "attraction",
+                        "historic": "archaeological_site",
+                        "osm_type": "w",
+                        "opening_hours": "9:00-17:00"
+                    }
+                },
+                "place_id": "51f214631eaccb58c059ba110367104d3340f00102f901afc93e030000000092031f5a6f6e612041727175656f6cc3b367696361206465204375696375696c636f"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.1823802917095,
+                    19.301031530618026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Monumento a los Niños Héroes",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "11580",
+                "district": "Colonia Nueva Anzures",
+                "street": "Peatonal Avenida Heróico Colegio Militar",
+                "lon": -99.17928972980542,
+                "lat": 19.421504900000002,
+                "formatted": "Monumento a los Niños Héroes, Peatonal Avenida Heróico Colegio Militar, Colonia Nueva Anzures, 11580 Mexico City, Mexico",
+                "address_line1": "Monumento a los Niños Héroes",
+                "address_line2": "Peatonal Avenida Heróico Colegio Militar, Colonia Nueva Anzures, 11580 Mexico City, Mexico",
+                "categories": [
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights",
+                    "tourism.sights.memorial",
+                    "tourism.sights.memorial.monument"
+                ],
+                "details": [
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Monumento a los Niños Héroes",
+                        "osm_id": 55212777,
+                        "tourism": "attraction",
+                        "historic": "monument",
+                        "osm_type": "w",
+                        "wikidata": "Q19381838",
+                        "wikipedia": "en:Monumento a los Niños Héroes"
+                    }
+                },
+                "place_id": "51f4b4c67879cb58c05962166fd8e76b3340f00102f901e97a4a030000000092031e4d6f6e756d656e746f2061206c6f73204e69c3b16f732048c3a9726f6573"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.17928904919592,
+                    19.421506430741267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Templo Expiatorio a Cristo Rey (Antigua Basilica)",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "07050",
+                "district": "Colonia Tepeyac Insurgentes",
+                "street": "5 de Mayo",
+                "lon": -99.11680484003006,
+                "lat": 19.485330400000002,
+                "formatted": "Templo Expiatorio a Cristo Rey (Antigua Basilica), 5 de Mayo, Colonia Tepeyac Insurgentes, 07050 Mexico City, Mexico",
+                "address_line1": "Templo Expiatorio a Cristo Rey (Antigua Basilica)",
+                "address_line2": "5 de Mayo, Colonia Tepeyac Insurgentes, 07050 Mexico City, Mexico",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.place_of_worship",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.place_of_worship",
+                    "tourism.sights.place_of_worship.cathedral",
+                    "tourism.sights.place_of_worship.church",
+                    "wheelchair",
+                    "wheelchair.yes"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.facilities",
+                    "details.historic",
+                    "details.place_of_worship",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Templo Expiatorio a Cristo Rey (Antigua Basilica)",
+                        "osm_id": 120733637,
+                        "amenity": "place_of_worship",
+                        "alt_name": "Antigua Basílica de Guadalupe",
+                        "building": "church",
+                        "historic": "cathedral",
+                        "osm_type": "w",
+                        "religion": "christian",
+                        "wikipedia": "es:Basílica de Santa María de Guadalupe",
+                        "start_date": 1709,
+                        "wheelchair": "yes",
+                        "denomination": "catholic"
+                    }
+                },
+                "place_id": "51d2143a417ac758c059ed8b1df8397c3340f00102f901c53f32070000000092033154656d706c6f204578706961746f72696f20612043726973746f205265792028416e746967756120426173696c69636129"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.1168368403626,
+                    19.485259539807817
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Piramide de Tenayuca",
+                "country": "Mexico",
+                "country_code": "mx",
+                "state": "State of Mexico",
+                "county": "Tlalnepantla de Baz",
+                "city": "Tlalnepantla",
+                "postcode": "07620",
+                "street": "Calle Xóchitl",
+                "lon": -99.16849895,
+                "lat": 19.5320945,
+                "formatted": "Piramide de Tenayuca, Calle Xóchitl, 07620 Tlalnepantla, State of Mexico, Mexico",
+                "address_line1": "Piramide de Tenayuca",
+                "address_line2": "Calle Xóchitl, 07620 Tlalnepantla, State of Mexico, Mexico",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.archaeological_site"
+                ],
+                "details": [
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Piramide de Tenayuca",
+                        "osm_id": 134564949,
+                        "building": "yes",
+                        "historic": "archaeological_site",
+                        "osm_type": "w",
+                        "wikipedia": "es:Tenayuca",
+                        "historic:civilization": "Chichimeca"
+                    }
+                },
+                "place_id": "5142ead1afc8ca58c059aa605d5837883340f00102f901554c050800000000920314506972616d6964652064652054656e6179756361"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.16849894999999,
+                    19.532094500348343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tenayuca II",
+                "country": "Mexico",
+                "country_code": "mx",
+                "state": "State of Mexico",
+                "county": "Tlalnepantla de Baz",
+                "city": "Tlalnepantla",
+                "lon": -99.16919340588699,
+                "lat": 19.53497955,
+                "formatted": "Tenayuca II, Tlalnepantla, Tlalnepantla de Baz, Mexico",
+                "address_line1": "Tenayuca II",
+                "address_line2": "Tlalnepantla, Tlalnepantla de Baz, Mexico",
+                "categories": [
+                    "leisure",
+                    "leisure.park",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.archaeological_site"
+                ],
+                "details": [
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Tenayuca II",
+                        "osm_id": 134565464,
+                        "leisure": "park",
+                        "historic": "archaeological_site",
+                        "osm_type": "w",
+                        "wikipedia": "es:Tenayuca",
+                        "historic:civilization": "Chichimeca"
+                    }
+                },
+                "place_id": "5155572aa8d4ca58c059c2b37bb1f5883340f00102f901584e05080000000092030b54656e6179756361204949"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.16922954687955,
+                    19.534998982144096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Zona Arqueológica Santa Cecilia Acatitlan",
+                "country": "Mexico",
+                "country_code": "mx",
+                "state": "State of Mexico",
+                "county": "Tlalnepantla de Baz",
+                "city": "Tlalnepantla",
+                "lon": -99.17348261720888,
+                "lat": 19.5524876,
+                "formatted": "Zona Arqueológica Santa Cecilia Acatitlan, Tlalnepantla, Tlalnepantla de Baz, Mexico",
+                "address_line1": "Zona Arqueológica Santa Cecilia Acatitlan",
+                "address_line2": "Tlalnepantla, Tlalnepantla de Baz, Mexico",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "leisure",
+                    "leisure.park",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.archaeological_site"
+                ],
+                "details": [
+                    "details",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Zona Arqueológica Santa Cecilia Acatitlan",
+                        "access": "yes",
+                        "osm_id": 134568258,
+                        "leisure": "park",
+                        "historic": "archaeological_site",
+                        "osm_type": "w",
+                        "wikipedia": "es:Santa Cecilia Acatitlán",
+                        "description": "Pirámide_y_Museo_de_Sitio",
+                        "inscription": "Piramide historica del periodo Chichimeca-Mexica, con templo superior reconstruido;cuenta con museo de sitio",
+                        "historic:civilization": "chichimeca-mexican"
+                    }
+                },
+                "place_id": "513beb3dcc19cb58c059ae90d550778d3340f00102f901425905080000000092032a5a6f6e612041727175656f6cc3b3676963612053616e746120436563696c6961204163617469746c616e"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.17344957396283,
+                    19.552601863994532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Zócalo de la Ciudad de México",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "06060",
+                "district": "Centro Urbano",
+                "lon": -99.13317042954125,
+                "lat": 19.432839450000003,
+                "formatted": "Zócalo de la Ciudad de México, Centro Urbano, 06060 Mexico City, Mexico",
+                "address_line1": "Zócalo de la Ciudad de México",
+                "address_line2": "Centro Urbano, 06060 Mexico City, Mexico",
+                "categories": [
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights",
+                    "wheelchair",
+                    "wheelchair.limited"
+                ],
+                "details": [
+                    "details",
+                    "details.facilities",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "lit": "yes",
+                        "name": "Zócalo de la Ciudad de México",
+                        "place": "square",
+                        "osm_id": 221909363,
+                        "bicycle": "permissive",
+                        "name:de": "Sockel",
+                        "name:ko": "쏘깔로 광장",
+                        "surface": "cobblestone",
+                        "tourism": "attraction",
+                        "alt_name": "Plaza de la Constitución",
+                        "historic": "earthworks",
+                        "osm_type": "w",
+                        "wikipedia": "es:Plaza de la Constitución",
+                        "short_name": "Zócalo",
+                        "wheelchair": "limited",
+                        "official_name": "Plaza de la Constitución",
+                        "official_name:de": "Platz der Verfassung",
+                        "official_name:en": "Constitution Square",
+                        "official_name:it": "Piazza della Costituzione",
+                        "official_name:pt": "Praça da Constituição"
+                    }
+                },
+                "place_id": "519842ec4586c858c05924e6bbcac16e3340f00102f90173113a0d0000000092031f5ac3b363616c6f206465206c6120436975646164206465204dc3a97869636f"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.13319538185385,
+                    19.43264453017595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Estela de Luz",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "11580",
+                "district": "Colonia Nueva Anzures",
+                "street": "Avenida Juventud Heróica",
+                "lon": -99.17582832122653,
+                "lat": 19.4229128,
+                "formatted": "Estela de Luz, Avenida Juventud Heróica, Colonia Nueva Anzures, 11580 Mexico City, Mexico",
+                "address_line1": "Estela de Luz",
+                "address_line2": "Avenida Juventud Heróica, Colonia Nueva Anzures, 11580 Mexico City, Mexico",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.memorial",
+                    "tourism.sights.memorial.monument"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Estela de Luz",
+                        "height": 111,
+                        "osm_id": 311593047,
+                        "building": "yes",
+                        "historic": "monument",
+                        "loc_name": "La Suavicrema",
+                        "osm_type": "w",
+                        "wikidata": "Q8843219",
+                        "wikipedia": "en:Estela de Luz"
+                    }
+                },
+                "place_id": "51b8b6bbc540cb58c059b6bc3b02446c3340f00102f901578892120000000092030d457374656c61206465204c757a"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.17582839328213,
+                    19.42291273077418
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Monumento Alvaro Obregón",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "01070",
+                "district": "Colonia Guadalupe Chimalistac",
+                "street": "Calle de la Paz",
+                "lon": -99.1859448,
+                "lat": 19.3471989,
+                "formatted": "Monumento Alvaro Obregón, Calle de la Paz, Colonia Guadalupe Chimalistac, 01070 Mexico City, Mexico",
+                "address_line1": "Monumento Alvaro Obregón",
+                "address_line2": "Calle de la Paz, Colonia Guadalupe Chimalistac, 01070 Mexico City, Mexico",
+                "categories": [
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights",
+                    "tourism.sights.memorial",
+                    "tourism.sights.memorial.monument"
+                ],
+                "details": [
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Monumento Alvaro Obregón",
+                        "osm_id": 317911271,
+                        "tourism": "attraction",
+                        "historic": "monument",
+                        "osm_type": "n",
+                        "wikidata": "Q6062723",
+                        "wikipedia": "es:Parque de la Bombilla (Ciudad de México)"
+                    }
+                },
+                "place_id": "511eb70485e6cb58c059ef27f206e2583340f00103f901e7f0f212000000009203194d6f6e756d656e746f20416c7661726f204f62726567c3b36e"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.18594479999999,
+                    19.34719890033733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bandera Monumental",
+                "country": "Mexico",
+                "country_code": "mx",
+                "city": "Mexico City",
+                "postcode": "10200",
+                "district": "Colonia Independencia Batán Sur",
+                "street": "Autopista Urbana Sur",
+                "lon": -99.2107585,
+                "lat": 19.3313075,
+                "formatted": "Monumental Flag, Autopista Urbana Sur, Colonia Independencia Batán Sur, 10200 Mexico City, Mexico",
+                "address_line1": "Monumental Flag",
+                "address_line2": "Autopista Urbana Sur, Colonia Independencia Batán Sur, 10200 Mexico City, Mexico",
+                "categories": [
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.memorial",
+                    "tourism.sights.memorial.monument"
+                ],
+                "details": [
+                    "details",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Bandera Monumental",
+                        "height": 100,
+                        "osm_id": 319157864,
+                        "name:en": "Monumental Flag",
+                        "historic": "monument",
+                        "osm_type": "n",
+                        "wikidata": "Q4854531",
+                        "wikipedia": "es:Banderas monumentales de México"
+                    }
+                },
+                "place_id": "51a73638117dcd58c05937dd7e91d0543340f00103f90168f605130000000092031242616e64657261204d6f6e756d656e74616c"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.21075849999998,
+                    19.331307500336347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Mexico",
+                "country_code": "mx",
+                "state": "State of Mexico",
+                "county": "Tlalnepantla de Baz",
+                "city": "Tlalnepantla",
+                "postcode": "02300",
+                "district": "Azcapotzalco",
+                "street": "Calle del Casco",
+                "lon": -99.16828121399499,
+                "lat": 19.507732563973416,
+                "formatted": "Calle del Casco, Azcapotzalco, 02300 Tlalnepantla, State of Mexico, Mexico",
+                "address_line1": "Calle del Casco",
+                "address_line2": "Azcapotzalco, 02300 Tlalnepantla, State of Mexico, Mexico",
+                "mappedTo": {
+                    "lon": -99.16828121399499,
+                    "lat": 19.507732563973416
+                },
+                "name": "Ex-Hacienda San Pablo de Enmedio",
+                "categories": [
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "area": "yes",
+                        "name": "Ex-Hacienda San Pablo de Enmedio",
+                        "osm_id": 355762508,
+                        "website": "http://www.exhaciendadeenmedio.com.mx/index.html",
+                        "historic": "yes",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51586a10dcbaca58c05909100e44e5813340f00102f9014c8134150000000092032045782d48616369656e64612053616e205061626c6f20646520456e6d6564696f"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.16765500643794,
+                    19.50740456908537
+                ]
+            }
+        }
+    ]
 }

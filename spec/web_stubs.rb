@@ -75,7 +75,7 @@ def places_mexico_city
        	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
        	  'Content-Type'=>'application/json',
        	  'User-Agent'=>'Faraday v2.7.4'
-           }, query: {apiKey: ENV['places_key'], filter: "circle:-99.13,19.43,5000"}).
+           }, query: {apiKey: ENV['places_key'], filter: "circle:-99.13,19.43,20000"}).
          to_return(status: 200, body: File.read("spec/fixtures/tourist_sights_mexico_city.json"))
 
 end

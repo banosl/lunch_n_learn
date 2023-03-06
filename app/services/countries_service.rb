@@ -12,4 +12,9 @@ class CountriesService
     response = conn.get('all', {fields: "name,capital,capitalInfo,flag"})
     json_parse(response)
   end
+
+  def self.get_one_country(country)
+    response = conn.get("name/#{country}", {fields: "name,capital,capitalInfo,flag"})
+    json_parse(response)
+  end
 end

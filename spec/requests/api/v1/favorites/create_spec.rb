@@ -9,7 +9,7 @@ RSpec.describe "Create a favorite" do
       post "/api/v1/favorites", headers: headers, params: JSON.generate({api_key: "6816bbb16b76946463be", country: "Thailand", recipe_link: "https://www.thaifood.com", recipe_title: "Crab Fried Rice"})
       
       expect(response).to be_successful
-      expect(response.status).to eq(200)
+      expect(response.status).to eq(201)
       
       result = JSON.parse(response.body, symbolize_names: true)
       expect(result).to eq({success: "Favorite added successfully"})

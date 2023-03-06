@@ -5,7 +5,7 @@ class Api::V1::FavoritesController < ApplicationController
       new_favorite = user.favorites.new(favorite_params)
 
       if new_favorite.save
-        render json: {"success": "Favorite added successfully"}, status: 200
+        render json: {"success": "Favorite added successfully"}, status: 201
       end
     else
       render json: {"errors": "User not found"}, status: 404

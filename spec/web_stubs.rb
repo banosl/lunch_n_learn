@@ -4,6 +4,7 @@ def load_stubs
   all_countries
   youtube_mexico
   pictures_mexico
+  places_mexico_city
 end
 
 def recipes_mexico
@@ -64,4 +65,17 @@ def pictures_mexico
        	  'User-Agent'=>'Faraday v2.7.4'
            }, query: {"client_id": ENV['unsplash_api'], "query": "Mexico"}).
          to_return(status: 200, body: File.read("spec/fixtures/pictures_mexico.json"))
+end
+
+def places_mexico_city
+  stub_request(:get, "https://api.geoapify.com/v2/places").
+         with(
+           headers: {
+       	  'Accept'=>'*/*',
+       	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       	  'Content-Type'=>'application/json',
+       	  'User-Agent'=>'Faraday v2.7.4'
+           }, query: {apiKey: ENV['places_key'], filter: "circle:-99.13,19.43,5000"}).
+         to_return(status: 200, body: File.read("spec/fixtures/tourist_sights_mexico_city.json"))
+
 end

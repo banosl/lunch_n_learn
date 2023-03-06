@@ -18,7 +18,7 @@ RSpec.describe "Tourist Sights Index" do
 
       sights[:data].each do |sight|
         expect(sight).to have_key(:id)
-        expect(sight[:id]).to eq({})
+        expect(sight[:id]).to eq(nil)
         expect(sight).to have_key(:type)
         expect(sight[:type]).to eq("tourist_sight")
         expect(sight).to have_key(:attributes)

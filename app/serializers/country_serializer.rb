@@ -3,7 +3,7 @@ class CountrySerializer
     {
       "data": sights[:sights].map do |sight|
         {
-          "id": {},
+          "id": nil,
           "type": "tourist_sight",
           "attributes": {
             "name": sight[:name],

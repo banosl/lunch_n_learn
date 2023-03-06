@@ -4,7 +4,7 @@ class RecipeSerializer
         "data": 
           recipes.map do |recipe|
             {
-              "id": {},
+              "id": nil,
               "type": "recipe",
               "attributes":
               { 

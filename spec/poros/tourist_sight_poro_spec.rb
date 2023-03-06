@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe TouristSight do
   it "Tourist Sight exists and has attributes" do
-    data = {properties: {name: "library", address: "123 St, Anchorage, AK", place_id: "12345"}}
+    data = {properties: {name: "library", formatted: "123 St, Anchorage, AK", place_id: "12345"}}
     tourist_sight = TouristSight.new(data)
 
     expect(tourist_sight).to be_instance_of(TouristSight)

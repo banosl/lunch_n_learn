@@ -10,22 +10,15 @@ RSpec.describe TouristSightsFacade do
 
       capital_sights = TouristSightsFacade.sights_for_country_capital(country)
 
-      expect(capital_sights).to be_a(Hash)
-    
-      expect(capital_sights).to have_key(:country)
-      expect(capital_sights).to have_key(:capital_city)
-      expect(capital_sights).to have_key(:sights)
+      expect(capital_sights).to be_a(Array)
 
-      capital_sights[:sights].each do |sight|
-        expect(sight).to have_key(:name)
-        expect(sight[:name]).to be_a(String)
-        expect(sight).to have_key(:address)
-        expect(sight[:address]).to be_a(String)
-        expect(sight).to have_key(:place_id)
-        expect(sight[:place_id]).to be_a(String)
+      capital_sights.each do |sight|
+        expect(sight.name).to be_a(String)
+        expect(sight.address).to be_a(String)
+        expect(sight.place_id).to be_a(String)
       end
 
-      expect(capital_sights[:sights][0][:name]).to eq("Biblioteca de México \"José Vasconcelos\"")
+      expect(capital_sights[0].name).to eq("Biblioteca de México \"José Vasconcelos\"")
     end
   end
 end

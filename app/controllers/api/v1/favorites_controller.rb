@@ -13,13 +13,10 @@ class Api::V1::FavoritesController < ApplicationController
   end
 
   def index
-    # binding.pry
     if User.find_by(api_key: params[:api_key])
       user = User.find_by(api_key: params[:api_key])
       unless user.favorites == nil
         render json: FavoriteSerializer.format_user_favorites(user.favorites), status: 200
-      else
-        render json: {"data": []}
       end
     else 
       render json: {"errors": "User not found"}, status: 404

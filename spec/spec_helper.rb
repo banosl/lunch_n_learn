@@ -14,7 +14,10 @@
 #
 
 require 'simplecov'
-SimpleCov.start
+SimpleCov.start do
+  add_filter "spec/rails_helper.rb"
+  # add_filter "spec/web_stubs.rb"
+end
 
 require 'webmock/rspec'
 

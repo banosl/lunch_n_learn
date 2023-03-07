@@ -1,4 +1,4 @@
-# lunch_n_learn
+# Lunch n Learn API
 
 <a name="readme-top"></a>
 
@@ -7,7 +7,6 @@
 [![Commit][last-commit-shield]][last-commit-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Code-Size][code-size-shield]][code-size-url]<br>
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -49,9 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-
-
+Lunch n Learn API is built for consumption by a front end application to search for foods by country and provide an opportunity to learn more about that country's culture. This app exposes end points for retrieving recipes for dishes, videos, and tourist sights related to that country. End points for creating users with unique authentication tokens and adding favorites to those users are also included.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,7 +63,7 @@
 
 ### Built With
 
-* [![Rails]][Rails-url]
+</br>[![Rails]][Rails-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,12 +96,64 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Schema
+
 ## Usage
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Endpoints
 
 - Root directory: 'http://localhost:3000/api/v1'
 
+- GET Recipes
+  - Allows a request to pull recipes related to a given country.
+  - ```/recipes?country={country}```
+  - Params:
+    - country
+  - When a country isn't provided, the app generates a random one.
+
+- GET Tourist Sights
+  - Allows a request to pull the nearest tourists attractions for a given country's capital within a circle radius of 20000 meters.
+  - ```/tourist_sights?country={country}```
+  - Params:
+    - country
+
+- GET Learning Resources
+  - Allows a request to pull a YouTube video and up to 10 photos related to the given country. The YouTube videos are sources from Mr History's channel.
+  - ```/learning_resources?country={country}```
+  - Params:
+    - country
+
+- POST Users
+  - Allows a request to create a user in the user db and assigns them a unique API key.
+  - ```/users```
+  - Body as raw ```JSON```:
+      ```
+      {
+        "name": "user name",
+        "email": "user email"
+      }
+      ```
+
+- POST Favorites
+  - Allows a request to add a favorite recipe to a user.
+  - ```/favorites```
+  - Body as raw ```JSON```:
+    ```
+    {
+      "api_key": "user's api key",
+      "country": "recipe's country",
+      "recipe_link": "url",
+      "recipe_title": "recipe's title"
+    }
+    ```
+
+- GET Favorites
+  - Allows a request to pull a known user's favorite recipes.
+  - ```/favorites?api_key=users_api_key```
+  - Params:
+    - api_key
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -127,6 +176,13 @@
 
 * [Choose an Open Source License](https://choosealicense.com)
 * ["The Best README Template" by Github User othneil](https://github.com/othneildrew/Best-README-Template)
+* [Mr. History YouTube Channel](https://www.youtube.com/@MrHistory1/featured)
+* APIs used:
+  - [Edamam Recipes Search API](https://developer.edamam.com/edamam-recipe-api)
+  - [Geoapify Places API](https://apidocs.geoapify.com/docs/places/#about)
+  - [REST Countries](https://restcountries.com/#api-endpoints-v3-all)
+  - [Unsplash Developers](https://unsplash.com/documentation)
+  - [YouTube Data API](https://developers.google.com/youtube/v3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

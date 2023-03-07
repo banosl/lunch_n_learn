@@ -8,6 +8,8 @@ def load_stubs
   mexico_capital
   narnia_youtube
   narnia_unsplash
+  durotar_youtube
+  durotar_unsplash
 end
 
 def recipes_mexico
@@ -108,7 +110,7 @@ def narnia_youtube
 end
 
 def narnia_unsplash
-  stub_request(:get, "https://api.unsplash.com/search/photos?client_id=u1NprDEC2ByWMbXjiLaxq1oIrm0DVj14xpx1TTL1JL4&query=Narnia").
+  stub_request(:get, "https://api.unsplash.com/search/photos").
   with(
     headers: {
     'Accept'=>'*/*',
@@ -118,4 +120,28 @@ def narnia_unsplash
     }, query: {"client_id": ENV['unsplash_api'], "query": "Narnia"}).
   to_return(status: 200, body: File.read("spec/fixtures/narnia_unsplash.json"), headers: {})
 
+end
+
+def durotar_youtube
+  stub_request(:get, "https://youtube.googleapis.com/youtube/v3/search").
+         with(
+           headers: {
+       	  'Accept'=>'*/*',
+       	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       	  'Content-Type'=>'application/json',
+       	  'User-Agent'=>'Faraday v2.7.4'
+           }, query: {"channelId": "UCluQ5yInbeAkkeCndNnUhpw", "key": ENV['GOOGLE_API'], "part": "snippet", "q": "Durotar", "type": "video" }).
+         to_return(status: 200, body: File.read("spec/fixtures/durotar_youtube.json"), headers: {})
+end
+
+def durotar_unsplash
+  stub_request(:get, "https://api.unsplash.com/search/photos").
+         with(
+           headers: {
+       	  'Accept'=>'*/*',
+       	  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+       	  'Accept-Version'=>'v1',
+       	  'User-Agent'=>'Faraday v2.7.4'
+           }, query: {"client_id": ENV['unsplash_api'], "query": "Durotar"}).
+         to_return(status: 200, body: File.read("spec/fixtures/durotar_unsplash.json"), headers: {})
 end

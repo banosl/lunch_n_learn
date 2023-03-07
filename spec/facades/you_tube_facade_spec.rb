@@ -9,10 +9,10 @@ RSpec.describe YouTubeFacade do
       country = "Mexico"
       video = YouTubeFacade.one_video_for_country(country)
 
-      expect(video).to be_a(Hash)
-      expect(video[:id][:videoId]).to eq("ZgrdcffPDDA")
-      expect(video[:snippet][:title]).to eq("A Super Quick History of Mexico")
-      expect(video[:snippet][:channelTitle]).to eq("Mr History")
+      expect(video).to be_a(Video)
+      expect(video.video_id).to eq("ZgrdcffPDDA")
+      expect(video.title).to eq("A Super Quick History of Mexico")
+      expect(video.channel).to eq("Mr History")
     end
   end
 end

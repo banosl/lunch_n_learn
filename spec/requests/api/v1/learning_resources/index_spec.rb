@@ -23,6 +23,14 @@ RSpec.describe 'GET learning resources' do
     expect(result[:data][:attributes][:video]).to have_key(:youtube_video_id)
     expect(result[:data][:attributes]).to have_key(:images)
     expect(result[:data][:attributes][:images]).to be_a(Array)
+
+    result[:data][:attributes][:images].each do |image|
+      expect(image).to have_key(:url)
+      expect(image).to have_key(:alt_tag)
+      expect(image).to_not have_key(:user)
+      expect(image).to_not have_key(:location)
+      expect(image).to_not have_key(:twitter_username)
+    end
   end
 
   it 'returns an empty response for when there are no video results' do

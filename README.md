@@ -98,6 +98,8 @@ Lunch n Learn API is built for consumption by a front end application to search 
 
 ## Schema
 
+<img width="559" alt="Screen Shot 2023-03-07 at 9 52 55 AM" src="https://user-images.githubusercontent.com/111591731/223495377-1bf533d0-32b5-46df-b2fa-910ff5e5e3b0.png">
+
 ## Usage
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -111,19 +113,24 @@ Lunch n Learn API is built for consumption by a front end application to search 
   - ```/recipes?country={country}```
   - Params:
     - country
+  - ![Screen Shot 2023-03-06 at 6 33 44 PM](https://user-images.githubusercontent.com/111591731/223496256-23256c80-89d6-414e-a374-dc2805a4c642.png)
+
   - When a country isn't provided, the app generates a random one.
+  - ![Screen Shot 2023-03-06 at 6 34 06 PM](https://user-images.githubusercontent.com/111591731/223496212-9abf536e-8f40-4b87-af93-ad125c79e5f5.png)
 
 - GET Tourist Sights
   - Allows a request to pull the nearest tourists attractions for a given country's capital within a circle radius of 20000 meters.
   - ```/tourist_sights?country={country}```
   - Params:
     - country
+  - <img width="724" alt="Screen Shot 2023-03-07 at 10 09 31 AM" src="https://user-images.githubusercontent.com/111591731/223496681-7d5b2504-dcc7-40d3-99b2-37af9af51d7a.png">
 
 - GET Learning Resources
   - Allows a request to pull a YouTube video and up to 10 photos related to the given country. The YouTube videos are sources from Mr History's channel.
   - ```/learning_resources?country={country}```
   - Params:
     - country
+  - ![Screen Shot 2023-03-06 at 6 36 21 PM](https://user-images.githubusercontent.com/111591731/223496105-163f50f2-02e3-43a2-8b5e-fc137fb254df.png)
 
 - POST Users
   - Allows a request to create a user in the user db and assigns them a unique API key.
@@ -135,6 +142,7 @@ Lunch n Learn API is built for consumption by a front end application to search 
         "email": "user email"
       }
       ```
+  - ![Screen Shot 2023-03-06 at 6 38 46 PM](https://user-images.githubusercontent.com/111591731/223496018-01ddeba0-e4d0-4125-9a99-adec6832fc99.png)
 
 - POST Favorites
   - Allows a request to add a favorite recipe to a user.
@@ -148,12 +156,14 @@ Lunch n Learn API is built for consumption by a front end application to search 
       "recipe_title": "recipe's title"
     }
     ```
+  - ![Screen Shot 2023-03-06 at 6 43 46 PM](https://user-images.githubusercontent.com/111591731/223495878-168dce9b-0fe8-469d-92dc-45a9511b0a3e.png)
 
 - GET Favorites
   - Allows a request to pull a known user's favorite recipes.
   - ```/favorites?api_key=users_api_key```
   - Params:
     - api_key
+  - ![Screen Shot 2023-03-06 at 6 46 57 PM](https://user-images.githubusercontent.com/111591731/223495764-984bdb96-6ecd-418a-a4ef-8fb2d27950e9.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

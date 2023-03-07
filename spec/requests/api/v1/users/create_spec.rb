@@ -36,6 +36,26 @@ RSpec.describe "POST user" do
       expect(message[:errors]).to eq("This user already exists")
     end
 
-    it 'returns with a message if either email or name are missing'
+    it 'returns with a message if name is missing' do
+      headers = { "CONTENT_TYPE" => "application/json" }
+      post "/api/v1/users", headers: headers, params: JSON.generate({email: "luca_in_denver@gmail.com"})
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(400)
+
+      message = JSON.parse(response.body, symbolize_names: true)
+      expect(message[:errors]).to eq("Name can't be blank")
+    end
+
+    it 'returns with a message if email is missint' do
+      headers = { "CONTENT_TYPE" => "application/json" }
+      post "/api/v1/users", headers: headers, params: JSON.generate({name: "Luca Banos Karki"})
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(400)
+
+      message = JSON.parse(response.body, symbolize_names: true)
+      expect(message[:errors]).to eq("Email can't be blank")
+    end
   end
 end

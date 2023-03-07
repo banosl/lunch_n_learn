@@ -32,6 +32,11 @@ RSpec.describe 'GET learning resources' do
     expect(response).to be_successful
     expect(response.status).to eq(200)
 
-    binding.pry
+    result = JSON.parse(response.body, symbolize_names: true)
+
+    expect(result[:data]).to have_key(:type)
+    expect(result[:data]).to have_key(:attributes)
+    expect(result[:data][:attributes]).to have_key(:video)
+    expect(result[:data][:attributes][:video]).to eq({})
   end
 end

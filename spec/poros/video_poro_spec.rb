@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Video do
   it 'video exists and has attributes' do
-    data = {items: {id: {videoId: "A6Hg35F"}, snippet: {title: "Sample Video"}}}
+    data = {id: {videoId: "A6Hg35F"}, snippet: {title: "Sample Video"}}
     video = Video.new(data)
 
     expect(video).to be_instance_of(Video)

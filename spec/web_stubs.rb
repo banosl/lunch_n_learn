@@ -116,6 +116,6 @@ def narnia_unsplash
     'Accept-Version'=>'v1',
     'User-Agent'=>'Faraday v2.7.4'
     }, query: {"client_id": ENV['unsplash_api'], "query": "Narnia"}).
-  to_return(status: 200, body: File.read("spec/fixtures/narnia_unsplash"), headers: {})
+  to_return(status: 200, body: File.read("spec/fixtures/narnia_unsplash.json"), headers: {})
 
 end

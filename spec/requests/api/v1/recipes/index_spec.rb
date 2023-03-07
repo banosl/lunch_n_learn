@@ -32,6 +32,9 @@ RSpec.describe "GET recipes" do
       expect(recipe[:attributes][:country]).to be_a(String)
       expect(recipe[:attributes]).to have_key(:image)
       expect(recipe[:attributes][:image]).to be_a(String)
+      expect(recipe[:attributes]).to_not have_key(:source)
+      expect(recipe[:attributes]).to_not have_key(:dietLabels)
+      expect(recipe[:attributes]).to_not have_key(:healthLabels)
     end
   end
 
